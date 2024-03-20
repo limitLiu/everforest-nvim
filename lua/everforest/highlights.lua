@@ -386,7 +386,7 @@ highlights.generate_syntax = function(palette, options)
     WarningFloat = syntax_entry(palette.yellow, palette.none),
     InfoFloat = syntax_entry(palette.blue, palette.none),
     HintFloat = syntax_entry(palette.green, palette.none),
-    CurrentWord = syntax_entry(palette.none, palette.none, { styles.bold }),
+    CurrentWord = syntax_entry(palette.none, palette.bg4, { styles.bold }),
 
     -- Git commit colours
     gitcommitSummary = { link = "Green" },
